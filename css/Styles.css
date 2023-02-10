@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+main {
+  /* max-width: 2480px; */
+  max-width: 1200px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  margin: 0 auto;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileImg {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.D-flex {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  /* color: #000; */
+}
+
+hr {
+  border: 1px solid #000;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  line-height: 1.5;
+}
+
+section {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.headerContentText {
+  line-height: 1.5;
+}
+
+.profileSummary {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.careerSummary {
+  margin-left: 2rem;
+}
+
+.employmentHistoryContainer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.emplymentHistoryContent {
+  display: flex;
+  gap: 2rem;
+  /* align-items: center; */
+}
+
+.emplyHistoryTitle {
+  line-height: 1.5;
+}
+.employDetails {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+.subCetagryList {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.subCetagryList li {
+  margin-bottom: 0.5rem;
+}
+
+.employDetails ul li {
+  margin-bottom: 0.5rem;
+}
+
+.achivmetList {
+  margin-top: 0.5rem;
+}
+
+.achivmetList li {
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.educationTitle {
+  display: flex;
+}
+
+.courseTitle {
+  margin-bottom: 0.6rem;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.languageSection ul li {
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+}
+
+.skillList li {
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 10px;
+}
+
+.signText {
+  margin-top: 1rem;
+  margin-top: 1rem;
+}
+
+.signTitle {
+  margin-top: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+}
